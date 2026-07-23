@@ -7,7 +7,6 @@ print("""
 """)
 while True:
     num_intento = int(input("Ingrese su intento: "))
-    print (num_secreto)
 
     if num_intento > num_secreto:
         print("Demasiado alto, intente otra vez")
