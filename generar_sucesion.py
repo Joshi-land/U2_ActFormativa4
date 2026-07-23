@@ -13,8 +13,8 @@ diferencia = int(input("> Ingrese la diferencia: "))
 num_sucesion = inicio
 
 while True:
-    print(num_sucesion," ")
-    num_sucesion += diferencia
-    if num_sucesion > limite:
+    print("\n",num_sucesion," ")
+    num += diferencia
+    if num > limite:
         break
 print("\n > Secuencia aritmética desde ", inicio, " hasta ", limite)
